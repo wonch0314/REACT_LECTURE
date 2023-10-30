@@ -2,10 +2,10 @@
   "name": "mosaic-react",
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5100",
     "build": "vite build",
-    "run-server": "yarn json-server --watch db.json --port 3001",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --port 3001 --no-proxy-server --watch db.json"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
@@ -18,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-flatpickr": "^3.10.13",
     "react-router-dom": "^6.11.2",
-    "react-transition-group": "^4.4.5"
+    "react-transition-group": "^4.4.5",
+    "zustand": "^4.4.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.0",

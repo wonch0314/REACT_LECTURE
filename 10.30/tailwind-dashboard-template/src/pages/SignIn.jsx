@@ -1,4 +1,4 @@
-import SignInCard from '../partials/signin/SignInCard';
+import SignInCard from "../partials/signin/SignInCard";
 
 function SignIn() {
   return (

@@ -12,6 +12,12 @@
       "email": "bryan@gmail.com",
       "name": "Bryan",
       "password": "1111"
+    },
+    {
+      "email": "chanho.won@gmail.com",
+      "name": "chanho_won",
+      "password": "qwer1234!!",
+      "id": 3
     }
   ],
   "codes": [

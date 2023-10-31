@@ -1,0 +1,445 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "oopchoi@gmail.com",
+      "name": "Choi",
+      "password": "1111"
+    },
+    {
+      "id": 2,
+      "email": "bryan@gmail.com",
+      "name": "Bryan",
+      "password": "1111"
+    }
+  ],
+  "codes": [
+    {
+      "id": 1,
+      "code": "OD0100",
+      "description": "주문상태",
+      "order_no": 1,
+      "parent_code": "ROOT"
+    },
+    {
+      "id": 2,
+      "code": "OD0101",
+      "parent_code": "OD0100",
+      "description": "결제완료",
+      "order_no": 1
+    },
+    {
+      "id": 3,
+      "code": "OD0102",
+      "parent_code": "OD0100",
+      "description": "상품준비중",
+      "order_no": 2
+    },
+    {
+      "id": 4,
+      "code": "OD0103",
+      "parent_code": "OD0100",
+      "description": "배송중",
+      "order_no": 3
+    },
+    {
+      "id": 5,
+      "parent_code": "OD0100",
+      "code": "OD0104",
+      "description": "배송완료",
+      "order_no": "4"
+    },
+    {
+      "id": 6,
+      "parent_code": "OD0100",
+      "code": "OD0105",
+      "description": "구매확정",
+      "order_no": "5"
+    },
+    {
+      "id": 8,
+      "parent_code": "ROOT",
+      "code": "MB0100",
+      "description": "회원등급",
+      "order_no": 2
+    },
+    {
+      "id": 9,
+      "parent_code": "MB0100",
+      "code": "MB0101",
+      "description": "다이아몬드",
+      "order_no": "1"
+    },
+    {
+      "id": 10,
+      "parent_code": "MB0100",
+      "code": "MB0102",
+      "description": "골드",
+      "order_no": "2"
+    },
+    {
+      "id": 11,
+      "parent_code": "MB0100",
+      "code": "MB0103",
+      "description": "실버",
+      "order_no": "3"
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 12
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 13
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 14
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 15
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 16
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 17
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 18
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 19
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 20
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 21
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 22
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 23
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 24
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 25
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 26
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 27
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 28
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 29
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 30
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 31
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 32
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 33
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 34
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 35
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 36
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 37
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 38
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 39
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 40
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 41
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 42
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 43
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 44
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 45
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 46
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 47
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 48
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 49
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 50
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 51
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 52
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 53
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 54
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 55
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 56
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 57
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 58
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 59
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 60
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 61
+    },
+    {
+      "parent_code": "MB0100",
+      "code": "MB0104",
+      "description": "새싹",
+      "order_no": "4",
+      "id": 62
+    }
+  ]
+}
